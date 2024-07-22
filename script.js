@@ -21,13 +21,6 @@ const data = {
 new Chart(ctx, {
 	type: 'pie',
 	data: data,
-	options: {
-		layout: {
-			padding: {
-				top: 200
-			}
-		}
-	},
 	plugins: {
 		plugins: {
 			legend: {
