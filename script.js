@@ -23,7 +23,6 @@ new Chart(ctx, {
 	data: data,
 	options: {
 		layout: {
-				padding: 100,
 				align: 'center' 
 		}
 	}
