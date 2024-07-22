@@ -8,7 +8,7 @@ const data = {
     'Exam Project'
   ],
   datasets: [{
-    data: ['78', '24', '10'],
+    data: ['78', '12', '10'],
     backgroundColor: [
       'rgb(149, 242, 217)',
       'rgb(237, 177, 131)',
