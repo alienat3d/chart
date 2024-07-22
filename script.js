@@ -2,20 +2,20 @@
 const ctx = document.getElementById('myChart');
 
 const data = {
-  labels: [
-    'Done',
-    'Lessons & HWs',
-    'Exam Project'
-  ],
-  datasets: [{
-    data: ['78', '12', '10'],
-    backgroundColor: [
-      'rgb(149, 242, 217)',
-      'rgb(237, 177, 131)',
-      'rgb(168, 218, 220)'
-    ],
-    hoverOffset: 4
-  }]
+	labels: [
+		'Done',
+		'Lessons & HWs',
+		'Exam Project'
+	],
+	datasets: [{
+		data: ['78', '12', '10'],
+		backgroundColor: [
+			'rgb(149, 242, 217)',
+			'rgb(237, 177, 131)',
+			'rgb(168, 218, 220)'
+		],
+		hoverOffset: 4
+	}]
 };
 
 new Chart(ctx, {
@@ -23,7 +23,20 @@ new Chart(ctx, {
 	data: data,
 	options: {
 		layout: {
-				align: 'center' 
+			padding: {
+				top: 200
+			}
+		}
+	},
+	plugins: {
+		plugins: {
+			legend: {
+				title: {
+					padding: {
+						top: 50
+					}
+				}
+			}
 		}
 	}
 });
