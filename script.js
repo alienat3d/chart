@@ -21,4 +21,10 @@ const data = {
 new Chart(ctx, {
 	type: 'pie',
 	data: data,
+	options: {
+		layout: {
+				padding: 100,
+				align: 'center' 
+		}
+	}
 });
